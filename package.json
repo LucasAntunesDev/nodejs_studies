@@ -2,8 +2,8 @@
   "name": "nodejs_studies",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "type" : "module",
+  "main": "*/server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/LucasAntunes06/nodejs_studies./issues"
   },
-  "homepage": "https://github.com/LucasAntunes06/nodejs_studies.#readme"
+  "homepage": "https://github.com/LucasAntunes06/nodejs_studies.#readme",
+  "dependencies": {
+    "fastify": "^4.22.2"
+  }
 }
